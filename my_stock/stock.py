@@ -40,7 +40,7 @@ if __name__ == '__main__':
     driver.get("http://data.cfi.cn/cfidata.aspx?ndk=A0A1934A1937A2196A4834")
     driver.switch_to.frame(driver.find_element_by_xpath('//*[@id="myFrame"]/frame[3]'))
     stock_url_list = []
-    page_num = 1
+    page_num = 11
     while page_num <= 1:
         for i in range(2, 52):
             i = str(i)

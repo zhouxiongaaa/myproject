@@ -43,7 +43,7 @@ class FindStock:
         self.driver.switch_to.frame(self.driver.find_element_by_xpath('//*[@id="myFrame"]/frame[3]'))
         stock_url_list = []
         page_num = 1
-        while page_num <= 1:
+        while page_num <= 11:
             for i in range(2, 52):
                 i = str(i)
                 try:
